@@ -1,0 +1,145 @@
+body {
+    font-family: roboto, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 97vh;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header,
+.footer {
+    background: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-top,
+.header-detailed {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.header-top {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-detailed {
+    gap: 25px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.ko-fi-image {
+    width: 300px;
+}
+
+.header {
+    width: 100%;
+}
+
+.main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.examples {
+    display: flex;
+    flex: 1 37.5%;
+}
+
+.ratings {
+    display: flex;
+    flex: 1 37.5%;
+    background: #E5E7EB;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 25%;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #3882F6;
+    padding: 25px 80px;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3vh;
+    flex: 1 0;
+    justify-content: center;
+}
+
+#header-details>p {
+    margin: 5px 0px;
+}
+
+#header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#copyright {
+    color: inherit;
+}
+
+#banner-image {
+    flex: 1 0 auto;
+    width: 700px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+#header-details {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-message {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#contact-details>h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#contact-details>p {
+    margin: 0;
+    font-size: 16px;
+}
